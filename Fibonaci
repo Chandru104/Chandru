@@ -1,0 +1,17 @@
+class Fibonaci 
+{
+	public static void main(String[] args) 
+	{
+		//System.out.println("Hello World!");
+		int N=10;
+		int num1=0;
+		int num2=1;
+		int num3=0;
+		for( int i=0; i<N; i++){
+			System.out.print(num1+" ");
+			num3=num1+num2;
+			num1=num2;
+			num2=num3;
+		}
+	}
+}
